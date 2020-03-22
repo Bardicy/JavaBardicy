@@ -32,7 +32,7 @@ public class SplitFunction {
 			System.out.println("------- TRIM ----------");
 			String today3 = "Today is my favorite Java class";
 			today3=today3.trim();
-			System.out.println("Steing after trimming: " + today3);
+			System.out.println("String after trimming: " + today3);
 			
 			//today3=today3.split(" "); CE: type mismatch --> split will give you back
 			//array of Strings
