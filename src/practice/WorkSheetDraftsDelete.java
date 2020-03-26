@@ -3,16 +3,14 @@ package practice;
 import java.util.Scanner;
 
 public class WorkSheetDraftsDelete {
-	public static void main(String[] args){
-	     Scanner input = new Scanner(System.in);
-	     
-	     String entry = input.nextLine();
-	     String threeLetters = entry.substring(0,3);
-	     System.out.println("The first 3 letters of " + entry + " is " + threeLetters);
-	     
-	     
-	  }
-	  
-	}
+
+	public static void main(String args[]) {
+	
+
+		String str_Sample = "RockStar";
+		System.out.println("EndsWith character 'r': " + str_Sample.endsWith("r"));
+
+		}}
+
 
 
